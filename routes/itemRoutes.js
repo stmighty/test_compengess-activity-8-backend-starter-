@@ -9,3 +9,7 @@ router.post("/", itemsController.addItem);
 router.delete("/:item_id", itemsController.deleteItem);
 
 module.exports = router;
+
+
+
+//in this activity request has 3 types get,post,delete
